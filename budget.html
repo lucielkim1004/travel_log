@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 여행 기록 - 가계부</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Travel Log</a>
+        <button class="menu-toggle">&#9776;</button>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">지도</a></li>
+                    <li><a href="currency.html">환율</a></li>
+                    <li><a href="translate.html">번역</a></li>
+                    <li><a href="budget.html">가계부</a></li>
+                    <li><a href="planner.html">일정 플래너</a></li>
+                    <li><a href="weather.html">날씨</a></li>
+                    <li><a href="dday.html">D-day</a></li>
+                    <li><a href="todo.html">To do list</a></li>
+                    <li><a href="transport.html">교통편 검색</a></li>
+                    <li><a href="phrasebook.html">필수 회화</a></li>
+                    <li><a href="notes.html">메모장</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1 class="page-title">여행 가계부</h1>
+            
+            <div class="budget-summary">
+                <h2 id="total-expenses">총 지출: 0원</h2>
+            </div>
+
+            <form id="expense-form" class="expense-form">
+                <input type="date" id="date" required>
+                <input type="text" id="description" placeholder="내용" required>
+                <select id="category">
+                    <option value="식비">식비</option>
+                    <option value="숙소">숙소</option>
+                    <option value="교통">교통</option>
+                    <option value="기타">기타</option>
+                </select>
+                <input type="number" id="amount" placeholder="금액" required>
+                <button type="submit">추가</button>
+            </form>
+
+            <ul id="expense-list" class="expense-list">
+                <!-- 지출 내역이 여기에 추가됩니다. -->
+            </ul>
+        </main>
+    </div>
+
+    <script src="assets/js/budget.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

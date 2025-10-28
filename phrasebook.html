@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 여행 기록 - 필수 회화</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Travel Log</a>
+        <button class="menu-toggle">&#9776;</button>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">지도</a></li>
+                    <li><a href="currency.html">환율</a></li>
+                    <li><a href="translate.html">번역</a></li>
+                    <li><a href="budget.html">가계부</a></li>
+                    <li><a href="planner.html">일정 플래너</a></li>
+                    <li><a href="weather.html">날씨</a></li>
+                    <li><a href="dday.html">D-day</a></li>
+                    <li><a href="todo.html">To do list</a></li>
+                    <li><a href="transport.html">교통편 검색</a></li>
+                    <li><a href="phrasebook.html">필수 회화</a></li>
+                    <li><a href="notes.html">메모장</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1 class="page-title">필수 회화</h1>
+            <section class="phrasebook-container">
+                <div class="lang-buttons" id="lang-buttons" aria-label="언어 선택">
+                    <button type="button" data-lang="th">태국어</button>
+                    <button type="button" data-lang="vi">베트남어</button>
+                </div>
+
+                <div class="category-buttons" id="category-buttons" aria-label="카테고리 선택">
+                    <button type="button" data-category="전체">전체</button>
+                    <button type="button" data-category="인사">인사</button>
+                    <button type="button" data-category="식당">식당</button>
+                    <button type="button" data-category="쇼핑">쇼핑</button>
+                    <button type="button" data-category="교통">교통</button>
+                </div>
+
+                <div id="phrase-list" class="phrase-list" aria-live="polite"></div>
+            </section>
+        </main>
+    </div>
+    <script src="assets/js/phrasebook.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

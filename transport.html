@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 여행 기록 - 교통편 검색</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Travel Log</a>
+        <button class="menu-toggle">&#9776;</button>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">지도</a></li>
+                    <li><a href="currency.html">환율</a></li>
+                    <li><a href="translate.html">번역</a></li>
+                    <li><a href="budget.html">가계부</a></li>
+                    <li><a href="planner.html">일정 플래너</a></li>
+                    <li><a href="weather.html">날씨</a></li>
+                    <li><a href="dday.html">D-day</a></li>
+                    <li><a href="todo.html">To do list</a></li>
+                    <li><a href="transport.html">교통편 검색</a></li>
+                    <li><a href="phrasebook.html">필수 회화</a></li>
+                    <li><a href="notes.html">메모장</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1 class="page-title">교통편 길찾기</h1>
+
+            <div class="transport-container">
+                <p class="current-location-row">출발지: <span id="current-location">현재 위치 확인 중...</span></p>
+
+                <div class="transport-row">
+                    <input type="text" id="destination-input" placeholder="목적지를 입력하세요 (예: 에펠탑)">
+                    <button id="refresh-location-btn" title="현재 위치 새로고침">현재 위치 가져오기</button>
+                </div>
+
+                <div class="transport-actions">
+                    <button id="btn-transit" class="mode transit" title="대중교통 (r)">🚌 대중교통</button>
+                    <button id="btn-walk" class="mode walk" title="도보 (w)">🚶 도보</button>
+                    <button id="btn-drive" class="mode drive" title="택시/자동차 (d)">🚕 택시/자동차</button>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="assets/js/transport.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

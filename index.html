@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 여행 기록 - 지도</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Travel Log</a>
+        <button class="menu-toggle">&#9776;</button>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">지도</a></li>
+                    <li><a href="currency.html">환율</a></li>
+                    <li><a href="translate.html">번역</a></li>
+                    <li><a href="budget.html">가계부</a></li>
+                    <li><a href="planner.html">일정 플래너</a></li>
+                    <li><a href="weather.html">날씨</a></li>
+                    <li><a href="dday.html">D-day</a></li>
+                    <li><a href="todo.html">To do list</a></li>
+                    <li><a href="transport.html">교통편 검색</a></li>
+                    <li><a href="phrasebook.html">필수 회화</a></li>
+                    <li><a href="notes.html">메모장</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1 class="page-title">나의 여행 지도</h1>
+            <div id="map"></div>
+        </main>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

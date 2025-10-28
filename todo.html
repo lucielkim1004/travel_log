@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 여행 기록 - To do list</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Travel Log</a>
+        <button class="menu-toggle">&#9776;</button>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">지도</a></li>
+                    <li><a href="currency.html">환율</a></li>
+                    <li><a href="translate.html">번역</a></li>
+                    <li><a href="budget.html">가계부</a></li>
+                    <li><a href="planner.html">일정 플래너</a></li>
+                    <li><a href="weather.html">날씨</a></li>
+                    <li><a href="dday.html">D-day</a></li>
+                    <li><a href="todo.html">To do list</a></li>
+                    <li><a href="transport.html">교통편 검색</a></li>
+                    <li><a href="phrasebook.html">필수 회화</a></li>
+                    <li><a href="notes.html">메모장</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1 class="page-title">To Do List</h1>
+            
+            <div class="todo-container">
+                <div class="todo-input-container">
+                    <input type="text" id="todo-input" placeholder="새 할 일을 입력하세요...">
+                    <button id="add-todo-btn">추가</button>
+                </div>
+
+                <ul id="todo-list">
+                    <!-- 할 일 목록이 여기에 표시됩니다. -->
+                </ul>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="assets/js/todo.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

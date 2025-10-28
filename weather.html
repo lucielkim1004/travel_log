@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 여행 기록 - 날씨</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Travel Log</a>
+        <button class="menu-toggle">&#9776;</button>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">지도</a></li>
+                    <li><a href="currency.html">환율</a></li>
+                    <li><a href="translate.html">번역</a></li>
+                    <li><a href="budget.html">가계부</a></li>
+                    <li><a href="planner.html">일정 플래너</a></li>
+                    <li><a href="weather.html">날씨</a></li>
+                    <li><a href="dday.html">D-day</a></li>
+                    <li><a href="todo.html">To do list</a></li>
+                    <li><a href="transport.html">교통편 검색</a></li>
+                    <li><a href="phrasebook.html">필수 회화</a></li>
+                    <li><a href="notes.html">메모장</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1 class="page-title">세계 날씨</h1>
+            
+            <div class="weather-container">
+                <div class="weather-search">
+                    <input type="text" id="city-input" placeholder="도시 이름을 영어로 입력하세요 (예: London)">
+                    <button id="search-weather-btn">날씨 검색</button>
+                    <button id="current-location-btn">현재 위치 날씨</button>
+                </div>
+
+                <div id="current-weather" class="current-weather-container">
+                    <!-- 현재 날씨 정보가 여기에 표시됩니다. -->
+                </div>
+
+                <div id="forecast" class="forecast-container">
+                    <!-- 주간 예보 정보가 여기에 표시됩니다. -->
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="assets/js/weather.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

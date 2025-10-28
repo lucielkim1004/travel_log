@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 여행 기록 - 일정 플래너</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Travel Log</a>
+        <button class="menu-toggle">&#9776;</button>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">지도</a></li>
+                    <li><a href="currency.html">환율</a></li>
+                    <li><a href="translate.html">번역</a></li>
+                    <li><a href="budget.html">가계부</a></li>
+                    <li><a href="planner.html">일정 플래너</a></li>
+                    <li><a href="weather.html">날씨</a></li>
+                    <li><a href="dday.html">D-day</a></li>
+                    <li><a href="todo.html">To do list</a></li>
+                    <li><a href="transport.html">교통편 검색</a></li>
+                    <li><a href="phrasebook.html">필수 회화</a></li>
+                    <li><a href="notes.html">메모장</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1 class="page-title">일정 플래너</h1>
+            
+            <div class="planner-container">
+                <div class="plan-form-container">
+                    <h2>새 일정 추가</h2>
+                    <form id="plan-form">
+                        <div class="form-group">
+                            <label for="plan-date">날짜</label>
+                            <input type="date" id="plan-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="plan-city">도시 / 장소</label>
+                            <input type="text" id="plan-city" placeholder="예: 파리, 에펠탑" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="plan-details">상세 일정</label>
+                            <textarea id="plan-details" rows="4" placeholder="상세 일정을 입력하세요..."></textarea>
+                        </div>
+                        <button type="submit">일정 추가</button>
+                    </form>
+                </div>
+
+                <div class="plan-list-section">
+                    <h2>나의 여행 일정</h2>
+                    <div id="plan-list-container">
+                        <!-- 일정이 여기에 표시됩니다. -->
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="assets/js/planner.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
