@@ -33,10 +33,17 @@
 
         <main class="main-content">
             <h1 class="page-title">메모장</h1>
-            <!-- 페이지 컨텐츠가 여기에 추가됩니다. -->
+            <section class="notes-wrapper">
+                <div class="notes-editor">
+                    <textarea id="new-note-content" placeholder="여기에 새 메모를 입력하세요..."></textarea>
+                    <button id="save-note-btn" class="primary">메모 저장</button>
+                </div>
+
+                <div id="notes-container" class="notes-list" aria-live="polite"></div>
+            </section>
         </main>
     </div>
-
+    <script src="assets/js/notes.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
