@@ -191,6 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // 언어 코드 매핑
             const speechLang = {
+                'ko': 'ko-KR',
                 'en': 'en-US',
                 'ja': 'ja-JP',
                 'zh-CN': 'zh-CN',
@@ -212,7 +213,20 @@ document.addEventListener('DOMContentLoaded', () => {
             utterance.pitch = 1;
             utterance.volume = 1;
 
+            // 음성 재생 오류 처리
+            utterance.onerror = function(event) {
+                console.error('음성 재생 오류:', event);
+                alert(`음성 재생 중 오류가 발생했습니다: ${event.error}\n해당 언어의 음성이 시스템에 설치되어 있지 않을 수 있습니다.`);
+            };
+
+            utterance.onend = function() {
+                console.log('음성 재생 완료');
+            };
+
             window.speechSynthesis.speak(utterance);
+            
+            // 디버깅을 위한 로그
+            console.log(`음성 재생 시작 - 언어: ${utterance.lang}, 텍스트: ${text}`);
         } else {
             alert('이 브라우저는 음성 재생을 지원하지 않습니다.');
         }
