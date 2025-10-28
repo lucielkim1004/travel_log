@@ -38,30 +38,36 @@
             <main class="main-content col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <h1 class="page-title mt-3 mb-4">환율 계산기</h1>
                 
-                <div class="currency-converter card shadow-sm">
-                    <div class="card-body">
+                <div class="currency-converter card shadow-sm mx-auto" style="max-width: 700px;">
+                    <div class="card-body p-4">
                         <form id="currency-form">
-                            <div class="form-row row g-3 align-items-end mb-3">
-                                <div class="form-group col-md-3">
-                                    <label for="amount" class="form-label">금액</label>
-                                    <input type="number" id="amount" class="form-control" value="100" min="0" step="any" required>
+                            <div class="mb-3">
+                                <label for="amount" class="form-label fw-semibold">금액</label>
+                                <input type="number" id="amount" class="form-control form-control-lg" value="100" min="0" step="any" required placeholder="변환할 금액을 입력하세요">
+                            </div>
+                            
+                            <div class="row g-3 mb-3">
+                                <div class="col-md-5">
+                                    <label for="from-currency" class="form-label fw-semibold">출발 통화</label>
+                                    <select id="from-currency" class="form-select form-select-lg currency-select"></select>
                                 </div>
-                                <div class="form-group col-md-3">
-                                    <label for="from-currency" class="form-label">From</label>
-                                    <select id="from-currency" class="form-select"></select>
+                                <div class="col-md-2 d-flex align-items-end justify-content-center">
+                                    <button type="button" id="swap-btn" class="btn btn-outline-primary btn-lg swap-btn" title="통화 전환">
+                                        <span class="swap-icon">⇄</span>
+                                    </button>
                                 </div>
-                                <div class="swap-container col-md-1 text-center">
-                                    <button type="button" id="swap-btn" class="btn btn-outline-primary rounded-circle" title="전환">↔</button>
-                                </div>
-                                <div class="form-group col-md-3">
-                                    <label for="to-currency" class="form-label">To</label>
-                                    <select id="to-currency" class="form-select"></select>
+                                <div class="col-md-5">
+                                    <label for="to-currency" class="form-label fw-semibold">도착 통화</label>
+                                    <select id="to-currency" class="form-select form-select-lg currency-select"></select>
                                 </div>
                             </div>
-                            <button type="submit" class="calculate-btn btn btn-primary w-100">계산하기</button>
                         </form>
-                        <div id="result" class="result-container alert alert-info mt-3 text-center">
-                            환율 정보를 입력하고 '계산하기' 버튼을 누르세요.
+                        
+                        <div id="result" class="result-container">
+                            <div class="initial-message">
+                                <span class="emoji">💰</span>
+                                <p>금액과 통화를 선택하고 계산하기 버튼을 눌러주세요</p>
+                            </div>
                         </div>
                     </div>
                 </div>
