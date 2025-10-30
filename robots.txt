@@ -1,0 +1,44 @@
+# Travel Log - robots.txt
+# 모든 검색 엔진 크롤러 허용
+
+# 모든 검색 엔진에 대한 기본 설정
+User-agent: *
+Allow: /
+
+# 크롤링 제외할 디렉토리 (없음)
+# Disallow: 
+
+# 사이트맵 위치
+Sitemap: https://travel1004.netlify.app/sitemap.xml
+
+# 주요 검색 엔진별 설정
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Google 이미지 검색
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# Naver
+User-agent: Yeti
+Allow: /
+
+# Daum
+User-agent: Daumoa
+Allow: /
+
+# 크롤 속도 설정 (초당 1회 요청)
+Crawl-delay: 1

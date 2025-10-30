@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Travel Log - 스마트한 여행 도구</title>
+        <link>https://travel1004.netlify.app</link>
+        <description>위치 기반 여행 도구 모음 - 실시간 지도, 환율 계산, 번역, 날씨, 일정 관리 등 여행에 필요한 모든 기능을 한곳에서</description>
+        <language>ko</language>
+        <lastBuildDate>Wed, 29 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+        <managingEditor>contact@travel1004.netlify.app (Travel Log Team)</managingEditor>
+        <webMaster>contact@travel1004.netlify.app (Travel Log Team)</webMaster>
+        <category>Travel</category>
+        <category>Technology</category>
+        <category>Tools</category>
+        <image>
+            <url>https://travel1004.netlify.app/assets/images/logo.png</url>
+            <title>Travel Log</title>
+            <link>https://travel1004.netlify.app</link>
+        </image>
+        <atom:link href="https://travel1004.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
+
+        <!-- 실시간 위치 지도 -->
+        <item>
+            <title>실시간 위치 지도 - 여행 경로 추적</title>
+            <link>https://travel1004.netlify.app/index.html</link>
+            <description>실시간 위치 추적과 장소 검색으로 여행 경로를 기록하세요. 방문한 곳을 마커로 표시하고 나만의 여행 지도를 만들어보세요.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/index.html</guid>
+            <category>지도</category>
+            <category>위치추적</category>
+        </item>
+
+        <!-- 실시간 환율 계산기 -->
+        <item>
+            <title>실시간 환율 계산기 - 22개국 통화 지원</title>
+            <link>https://travel1004.netlify.app/currency.html</link>
+            <description>전 세계 22개국 통화의 실시간 환율을 계산하세요. 현재 위치 기반으로 출발 통화가 자동 설정되어 더욱 편리합니다.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/currency.html</guid>
+            <category>환율</category>
+            <category>통화</category>
+        </item>
+
+        <!-- 15개 언어 번역기 -->
+        <item>
+            <title>15개 언어 실시간 번역기 - 발음 듣기 기능</title>
+            <link>https://travel1004.netlify.app/translate.html</link>
+            <description>15개 언어를 지원하는 실시간 번역기로 언어의 장벽 없이 소통하세요. 번역 결과의 발음을 직접 들어볼 수 있습니다.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/translate.html</guid>
+            <category>번역</category>
+            <category>언어</category>
+        </item>
+
+        <!-- 여행 가계부 -->
+        <item>
+            <title>여행 가계부 - 지출 관리 및 통계</title>
+            <link>https://travel1004.netlify.app/budget.html</link>
+            <description>여행 경비를 손쉽게 기록하고 관리하세요. 카테고리별 지출 내역과 통계 차트로 예산을 스마트하게 운영할 수 있습니다.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/budget.html</guid>
+            <category>가계부</category>
+            <category>예산관리</category>
+        </item>
+
+        <!-- 여행 일정 플래너 -->
+        <item>
+            <title>여행 일정 플래너 - 드래그 앤 드롭 일정 관리</title>
+            <link>https://travel1004.netlify.app/planner.html</link>
+            <description>드래그 앤 드롭으로 간편하게 여행 일정을 계획하고 관리하세요. 날짜별, 시간별 활동을 추가하고 지도를 보며 동선을 최적화할 수 있습니다.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/planner.html</guid>
+            <category>일정관리</category>
+            <category>플래너</category>
+        </item>
+
+        <!-- 여행지 날씨 -->
+        <item>
+            <title>여행지 날씨 정보 - 전 세계 도시별 예보</title>
+            <link>https://travel1004.netlify.app/weather.html</link>
+            <description>여행 예정인 도시의 현재 날씨와 주간 예보를 확인하세요. 현재 위치 날씨를 포함하여 여러 도시의 날씨 정보를 한눈에 볼 수 있습니다.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/weather.html</guid>
+            <category>날씨</category>
+            <category>기상정보</category>
+        </item>
+
+        <!-- D-day 카운터 -->
+        <item>
+            <title>여행 D-day 카운터 - 설레는 여행 디데이</title>
+            <link>https://travel1004.netlify.app/dday.html</link>
+            <description>다가오는 여행을 위한 D-day를 설정하고 남은 날짜를 확인하며 설렘을 더해보세요. 여러 개의 여행 디데이를 동시에 관리할 수 있습니다.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/dday.html</guid>
+            <category>D-day</category>
+            <category>카운트다운</category>
+        </item>
+
+        <!-- To-do 리스트 -->
+        <item>
+            <title>여행 준비 체크리스트 - To do list</title>
+            <link>https://travel1004.netlify.app/todo.html</link>
+            <description>여행 전 준비물, 해야 할 일들을 체크리스트로 만들어 꼼꼼하게 관리하세요. 완료된 항목은 체크하여 진행 상황을 쉽게 파악할 수 있습니다.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/todo.html</guid>
+            <category>체크리스트</category>
+            <category>준비물</category>
+        </item>
+
+        <!-- 교통편 검색 -->
+        <item>
+            <title>교통편 검색 - 지도 기반 길찾기</title>
+            <link>https://travel1004.netlify.app/transport.html</link>
+            <description>출발지와 도착지를 입력하여 최적의 교통편 경로를 검색하세요. 도보, 대중교통, 자동차 등 다양한 옵션을 지도 위에서 확인할 수 있습니다.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/transport.html</guid>
+            <category>교통편</category>
+            <category>길찾기</category>
+        </item>
+
+        <!-- 필수 회화 -->
+        <item>
+            <title>여행 필수 회화 - 상황별 외국어</title>
+            <link>https://travel1004.netlify.app/phrasebook.html</link>
+            <description>공항, 식당, 쇼핑 등 여행 중 마주치는 다양한 상황에서 유용한 필수 회화 문장을 확인하고 발음을 들어보세요.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/phrasebook.html</guid>
+            <category>회화</category>
+            <category>외국어</category>
+        </item>
+
+        <!-- 메모장 -->
+        <item>
+            <title>여행 메모장 - 모든 순간 기록</title>
+            <link>https://travel1004.netlify.app/notes.html</link>
+            <description>여행 중 떠오르는 생각, 중요한 정보, 감상 등을 간편하게 기록하고 관리하세요. 모든 메모는 안전하게 저장되며 언제든지 확인할 수 있습니다.</description>
+            <pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+            <guid>https://travel1004.netlify.app/notes.html</guid>
+            <category>메모</category>
+            <category>일기</category>
+        </item>
+
+    </channel>
+</rss>

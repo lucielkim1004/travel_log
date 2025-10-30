@@ -3,6 +3,23 @@
 <head>
     <meta charset="UTF-8">
 
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N5RLDRMJ');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Search Console 인증 -->
+    <meta name="google-site-verification" content="9PVbPbMo73LFAlz42HXBn-0YCewtattqKD0dW1U5i1E" />
+
+    <!-- Bing Webmaster Tools 인증 -->
+    <meta name="msvalidate.01" content="7EE0F1B0BBCDA838B56BADBAD1AA4B66" />
+
+    <!-- Naver Webmaster Tools 인증 -->
+    <meta name="naver-site-verification" content="08785dfe88562b77dd771d51ed96b2ccd478bcbd" />
+
     <!-- ================== 기본 메타 태그 (SEO) ================== -->
     <title>나의 여행 기록 - 필수 회화 | 상황별 여행 외국어</title>
     <meta name="title" content="나의 여행 기록 - 필수 회화 | 상황별 여행 외국어">
@@ -56,9 +73,17 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5RLDRMJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <header class="header navbar navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
             <a href="index.html" class="logo navbar-brand">Travel Log</a>
+            <div class="location-notice">
+                <small>📍 이 사이트의 모든 기능은 당신의 현재 위치를 기반으로 동작합니다.</small>
+            </div>
             <button class="menu-toggle navbar-toggler" type="button">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -90,6 +115,8 @@
                         <div class="lang-buttons btn-group mb-3" id="lang-buttons" role="group" aria-label="언어 선택">
                             <button type="button" class="btn btn-outline-primary" data-lang="th">태국어</button>
                             <button type="button" class="btn btn-outline-primary" data-lang="vi">베트남어</button>
+                            <button type="button" class="btn btn-outline-primary" data-lang="zh">중국어</button>
+                            <button type="button" class="btn btn-outline-primary" data-lang="ja">일본어</button>
                         </div>
 
                         <div class="category-buttons btn-group mb-3 d-flex flex-wrap gap-2" id="category-buttons" aria-label="카테고리 선택">
@@ -106,8 +133,30 @@
             </main>
         </div>
     </div>
+
+    <!-- 소셜 미디어 링크 (SEO용 - 화면에 보이지 않음) -->
+    <div class="social-links" style="display: none;">
+        <a href="https://www.instagram.com/travellog" rel="noopener noreferrer" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/travellog" rel="noopener noreferrer" target="_blank">Facebook</a>
+        <a href="https://www.youtube.com/@travellog" rel="noopener noreferrer" target="_blank">YouTube</a>
+        <a href="https://www.linkedin.com/company/travellog" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+        <a href="https://www.threads.net/@travellog" rel="noopener noreferrer" target="_blank">Threads</a>
+        <a href="https://www.pinterest.com/travellog" rel="noopener noreferrer" target="_blank">Pinterest</a>
+        <a href="https://twitter.com/travellog" rel="noopener noreferrer" target="_blank">Twitter</a>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/phrasebook.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <!-- Naver Analytics -->
+    <script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+    <script type="text/javascript">
+    if(!wcs_add) var wcs_add = {};
+    wcs_add["wa"] = "15bdb74bb39c310";
+    if(window.wcs) {
+      wcs_do();
+    }
+    </script>
 </body>
 </html>

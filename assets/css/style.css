@@ -26,6 +26,24 @@ body {
     color: #fff !important;
 }
 
+.location-notice {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.location-notice small {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .location-notice {
+        display: none;
+    }
+}
+
 /* Sidebar customization */
 .sidebar {
     height: calc(100vh - var(--header-height));
